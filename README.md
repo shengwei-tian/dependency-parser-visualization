@@ -1,4 +1,9 @@
-# dependency-parser-visualization
+# AutoLLM-CARD: Towards a Description and Landscape of Large Language Models
+
+# Abstract 
+With the rapid growth of the Natural Language Processing (NLP) field, a vast variety of Large Language Models (LLMs) continue to emerge for diverse NLP tasks. As more papers are published, researchers and developers face the challenge of information overload. Thus, developing a system that can automatically extract and organise key information about LLMs from academic papers is particularly important. The standard format for documenting information about LLMs is the LLM model card (\textbf{LLM-Card}). We propose a method for automatically generating LLM model cards from scientific publications. We use Named Entity Recognition (\textbf{NER}) and Relation Extraction (\textbf{RE}) methods that automatically extract key information about LLMs from the papers, helping researchers to access information about LLMs efficiently. These features include model \textit{licence}, model \textit{name}, and model \textit{application}. With these features, we can form a model card for each paper. We processed 106 academic papers by defining three dictionaries -- LLM's name, licence, and application. 11,051 sentences were extracted through dictionary lookup, and the dataset was constructed through manual review of the final selection of 129 sentences with a link between the name and the \textit{licence}, and 106 sentences with a link between the model name and the \textit{application}. The resulting resource is relevant for LLM card illustrations using relational knowledge graphs. Our code and findings can contribute to automatic LLM card generation.
+
+# Github instructions
 
 my_combined_graph: the graphs on (model name, application, licence).
 
