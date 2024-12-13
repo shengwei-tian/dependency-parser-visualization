@@ -1,5 +1,13 @@
 # dependency-parser-visualization
 
+my_combined_graph: the graphs on (model name, application, licence).
+
+llm_model_applications.csv is data extracted on (models, applications)
+
+license_sentences.csv	Data on (models, license)
+
+code.ipynb	Dpendency parsing and pdf processing
+
 
 # reference
 
