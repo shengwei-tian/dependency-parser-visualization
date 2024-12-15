@@ -34,13 +34,7 @@ With the rapid growth of the Natural Language Processing (NLP) field, a vast var
     <td>triples extracted on (models, application)</td>
   </tr>
 </table>
-my_combined_graph｜ the graphs on (model name, application, licence).
 
-llm_model_applications.csv ｜ data extracted on (models, applications)
-
-license_sentences.csv ｜	Data on (models, license)
-
-code.ipynb	｜ Dependency parsing and pdf processing
 
 
 # reference
