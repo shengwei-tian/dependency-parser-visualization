@@ -7,8 +7,8 @@ from numpy.random import randint
 from spacy import displacy
 
 
-class AspectTagger:
-    def __init__(self, model_path="./taggers/ner-flair_2/final-model.pt"):
+class ModelCardTagger:
+    def __init__(self, model_path="../../models/ner-flair-basic/final-model.pt"):
         self.model = SequenceTagger.load(model_path)
 
     def annotate_entities(self, sent):
@@ -43,6 +43,11 @@ class AspectTagger:
             (l.data_point.start_position, l.data_point.end_position, l.value)
             for l in sentence.labels
         ]
+
+    def predict_and_display(self, sent):
+        sentence = Sentence(sent)
+        self.model.predict(sentence)
+        return display_ner_flair(sentence)
 
 
 def show(df, model, keer=5):
@@ -79,19 +84,12 @@ def show_these(df, model, ixs):
 
 def display_ner_flair(sentence):
     colors = {
-        "COMMUNICATIE": "#7aecec",
-        "WACHTTIJD": "#bfeeb7",
-        "ZORG": "#feca74",
-        "BEHANDELING": "#ff9561",
-        "PERSON": "#aa9cfc",
-        "VRIENDELIJKHEID": "#c887fb",
-        "ETEN": "#9cc9cc",
-        "PERSONEEL": "#ffeb80",
-        "SCHOONMAKEN": "#ff8197",
-        "SNELHEID": "#f0d0ff",
+        "Model": "#7aecec",
+        "Application": "#ff9561",
+        "Licence": "#c887fb",
     }
 
-    nlp = spacy.blank("nl")
+    nlp = spacy.load("en_core_web_sm")
     doc = nlp(sentence.text)
 
     try:
@@ -102,29 +100,20 @@ def display_ner_flair(sentence):
             ents.append(doc.char_span(start, end, label.value))
 
         doc.ents = ents
-    except:
+    except:  # noqa
         return print(doc.text)
     return displacy.render(doc, style="ent", jupyter=True, options={"colors": colors})
 
 
 def display_ner_true(df, ix):
     colors = {
-        "COMMUNICATIE": "#7aecec",
-        "WACHTTIJD": "#bfeeb7",
-        "ZORG": "#feca74",
-        "BEHANDELING": "#ff9561",
-        "PERSON": "#aa9cfc",
-        "VRIENDELIJKHEID": "#c887fb",
-        "ETEN": "#9cc9cc",
-        "PERSONEEL": "#ffeb80",
-        "SCHOONMAKEN": "#ff8197",
-        "SNELHEID": "#f0d0ff",
+        "Model": "#7aecec",
+        "Application": "#ff9561",
+        "Licence": "#c887fb",
     }
 
-    nlp = spacy.blank("nl")
+    nlp = spacy.load("en_core_web_sm")
     doc = nlp(df.loc[ix, "text"])
-
-    ents = []
 
     asp = df.loc[ix, "aspect"][0]
 
@@ -157,7 +146,7 @@ def prediction_accuracy(df, model, check_overlap=True):
         b = asp[1]
         aspect = asp[2]
 
-        ll = [l.value for l in sentence.labels]
+        ll = [l.value for l in sentence.labels]  # noqa
 
         check1 = aspect.upper() in ll
         if check1:

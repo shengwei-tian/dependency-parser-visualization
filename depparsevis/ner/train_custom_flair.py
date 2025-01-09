@@ -8,15 +8,15 @@ from flair.trainers import ModelTrainer
 columns = {0: "text", 1: "pos", 2: "ner"}
 
 # this is the folder in which train, test and dev files reside
-data_folder = "./ner_dataset/"
+data_folder = "../../data"
 
 # init a corpus using column format, data folder and the names of the train, dev and test files
 corpus: Corpus = ColumnCorpus(
     data_folder,
     columns,
-    train_file="train.txt",
-    test_file="test.txt",
-    dev_file="val.txt",
+    train_file="train_column_dataset.txt",
+    test_file="train_column_dataset.txt",
+    dev_file="train_column_dataset.txt",
 )
 
 # 2. what label do we want to predict?
@@ -45,4 +45,9 @@ trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
 
 # 7. start training
-trainer.train("./taggers/ner-flair_2", train_with_dev=True, max_epochs=150)
+trainer.train(
+    "../../models/ner-flair-basic",
+    train_with_dev=True,
+    mini_batch_size=16,
+    max_epochs=150,
+)

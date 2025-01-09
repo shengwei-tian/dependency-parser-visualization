@@ -187,3 +187,7 @@ cython_debug/
 
 # manual ignore files
 ignore.*
+
+
+# Data folder
+data/

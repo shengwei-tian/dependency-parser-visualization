@@ -86,6 +86,13 @@ dependencies = [
 # installed, specify them here.
 # package-data = {"sample" = ["*.dat"]}
 
+[tool.setuptools]
+py-modules = ["depparsevis"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["depparsevis.*"]
+exclude = ["*models*", "*data*"]
 
 [tool.ruff]
 exclude = [
