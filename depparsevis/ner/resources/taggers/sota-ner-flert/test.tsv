@@ -122,7 +122,7 @@ evaluations O O
 , O O
 Flan O O
 - O O
-PaLM B-Model O
+PaLM B-Model B-Model
 substantially O O
 outperforms O O
 PaLM B-Model B-Model
@@ -344,7 +344,7 @@ One O O
 of O O
 our O O
 future O O
-research B-License O
+research B-License B-License
 directions O O
 is O O
 to O O
@@ -396,7 +396,7 @@ mT0 O O
 
 SGPT O O
 - O O
-BLOOM-7B1 O B-Model
+BLOOM-7B1 O O
 - O O
 msmarco O O
 tends O O
@@ -522,7 +522,7 @@ most O O
 standard O O
 benchmarks O O
 like O O
-MMLU O B-Model
+MMLU O O
 [ O O
 27 O O
 ] O O
@@ -533,7 +533,7 @@ base O O
 model O O
 ) O O
 and O O
-LMSys O B-Model
+LMSys O O
 ELO O O
 Rating O O
 [ O O
@@ -614,7 +614,7 @@ Institute O O
 of O O
 Technology O O
 zMicrosoft O O
-Research B-License O
+Research B-License B-License
 https://aka.ms/beit O O
 
 Interestingly O O
@@ -668,7 +668,7 @@ endedevaluations O O
 outputsfrom O O
 Flan O O
 - O O
-PaLM B-Model O
+PaLM B-Model B-Model
 had O O
 substantially O O
 better O O
@@ -685,7 +685,7 @@ for O O
 CoT O O
 tasks O O
 likecomplex O O
-reasoning B-Application O
+reasoning B-Application B-Application
 , O O
 planning O O
 , O O
@@ -1002,7 +1002,7 @@ LLaMA B-Model B-Model
 41 O O
 ] O O
 , O O
-Mistral B-Model O
+Mistral B-Model B-Model
 [ O O
 17 O O
 ] O O
@@ -1020,7 +1020,7 @@ GPT O O
 2 O O
 ] O O
 , O O
-Gemini B-Model O
+Gemini B-Model B-Model
 [ O O
 38 O O
 ] O O
@@ -1523,7 +1523,7 @@ DeBERTa B-Model B-Model
 base O O
 86.3/86.2 O O
 82.5/79.3 O O
-DeBERTa+RTD O B-Model
+DeBERTa+RTD O O
 base O O
 1 O O
 ES O O
@@ -1731,7 +1731,7 @@ al O O
 2019 O O
 ) O O
 or O O
-XLNet B-Model O
+XLNet B-Model B-Model
 ( O O
 Yang O O
 et O O
@@ -1799,7 +1799,7 @@ Figure7 O O
 : O O
 FinetuningFlan O O
 - O O
-PaLMwithsomeCoTdataincludedinthemixtureenableszero O B-Model
+PaLMwithsomeCoTdataincludedinthemixtureenableszero O O
 - O O
 shotCoTreasoning O O
 in O O
@@ -1878,7 +1878,7 @@ Richardson O O
 ) O O
 as O O
 in O O
-XLNet B-Model O
+XLNet B-Model B-Model
 ( O O
 Yang O O
 et O O
@@ -1986,7 +1986,7 @@ al O O
 
 3.4 O O
 Machine O O
-Translation B-Application O
+Translation B-Application B-Application
 We O O
 also O O
 explore O O
@@ -2048,7 +2048,7 @@ epochs O O
 We O O
 obtain O O
 normalized O O
-GLMs O B-Model
+GLMs O O
 by O O
 applying O O
 the O O
@@ -2439,7 +2439,7 @@ WPS O O
 19.10 O O
 2735 O O
 17.15 O O
-4809 O B-Model
+4809 O O
 14072 O O
 203.86 O O
 4915 O O
@@ -2463,7 +2463,7 @@ OOM O O
 4382 O O
 34.51 O O
 4099 O O
-OOM O B-Model
+OOM O O
 - O O
 17.22 O O
 4312 O O
@@ -2798,7 +2798,7 @@ and O O
 SuperGLUE O O
 leaderboards O O
 , O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 large O O
 is O O
 still O O
@@ -3033,7 +3033,7 @@ Zaharia O O
 Whereas O O
 , O O
 the O O
-KL O B-Model
+KL O O
 metric O O
 in O O
 the O O
@@ -3108,7 +3108,7 @@ best O O
 13B O O
 model O O
 ( O O
-Llama O B-Model
+Llama O O
 2 O O
 , O O
 [ O O
@@ -3127,7 +3127,7 @@ best O O
 34B O O
 model O O
 ( O O
-LLaMa O B-Model
+LLaMa O O
 34B O O
 , O O
 [ O O
@@ -3202,7 +3202,7 @@ public O O
 releases O O
 of O O
 pretrained O O
-LLMs O B-Model
+LLMs O O
 ( O O
 such O O
 as O O
@@ -3216,7 +3216,7 @@ al O O
 2022 O O
 ) O O
 , O O
-LLaMa-1 O B-Model
+LLaMa-1 O O
 ( O O
 Touvron O O
 et O O
@@ -3241,7 +3241,7 @@ al O O
 BERT B-Model B-Model
 LARGE O O
 and O O
-XLNet B-Model O
+XLNet B-Model B-Model
 LARGE O O
 results O O
 are O O
@@ -3289,7 +3289,7 @@ few O O
 shot O O
 lags O O
 behind O O
-GPT-3 O B-Model
+GPT-3 O O
 mod- O O
 els O O
 , O O
@@ -4429,7 +4429,7 @@ BLOOM B-Model B-Model
 ( O O
 b O O
 ) O O
-BLOOMZ O B-Model
+BLOOMZ O O
 Figure O O
 12 O O
 : O O
@@ -4438,7 +4438,7 @@ generations O O
 of O O
 BLOOM B-Model B-Model
 and O O
-BLOOMZ O B-Model
+BLOOMZ O O
 on O O
 HumanEval O O
 . O O
@@ -4458,7 +4458,7 @@ no O O
 had O O
 significantly O O
 surpasses O O
-LLM- O B-Model
+LLM- O O
 QAT O O
 [ O O
 26 O O
@@ -5034,7 +5034,7 @@ on O O
 the O O
 open- O O
 source O O
-LLM O B-Model
+LLM O O
 LLaMA B-Model B-Model
 [ O O
 4 O O
@@ -5147,7 +5147,7 @@ Base O O
 Mistral B-Model B-Model
 7B O O
 outperforms O O
-Llama O B-Model
+Llama O O
 2 O O
 13B O O
 on O O
@@ -5162,7 +5162,7 @@ performance O O
 of O O
 Code O O
 - O O
-Llama O B-Model
+Llama O O
 7B O O
 without O O
 sacrificing O O
@@ -5355,7 +5355,7 @@ al O O
 2023 O O
 ) O O
 and O O
-FLAN B-Model O
+FLAN B-Model B-Model
 - O O
 PaLM B-Model B-Model
 ( O O
@@ -5526,7 +5526,7 @@ largest O O
 closed O O
 - O O
 source O O
-LLMs O B-Model
+LLMs O O
 , O O
 including O O
 Claude B-Model O
@@ -5535,7 +5535,7 @@ Bard O O
 , O O
 PaLM B-Model B-Model
 , O O
-PaLM-2 O B-Model
+PaLM-2 O O
 , O O
 and O O
 LaMDA O O
@@ -5696,7 +5696,7 @@ in O O
 Table O O
 4 O O
 , O O
-Llama O B-Model
+Llama O O
 2 O O
 70B O O
 is O O
@@ -5821,7 +5821,7 @@ abstractive O O
 question O O
 answering O O
 and O O
-summarization B-Application O
+summarization B-Application B-Application
 . O O
 
 A O O
@@ -6058,7 +6058,7 @@ PaLM B-Model B-Model
 model O O
 initialized O O
 from O O
-PaLM-62B O B-Model
+PaLM-62B O O
 and O O
 then O O
 pretrained O O
@@ -7288,7 +7288,7 @@ ve O O
 - O O
 shotMMLU.WealsopubliclyreleaseFlan O O
 - O O
-T5checkpoints,1whichachievestrongfew O B-Model
+T5checkpoints,1whichachievestrongfew O O
 - O O
 shot O O
 performance O O
@@ -7505,7 +7505,7 @@ KNRM O O
 M O O
 ( O O
 0.085 O O
- O O
+ O B-License
 ) O O
 Duet O O
 24.3 O O
@@ -7514,7 +7514,7 @@ Duet O O
 159B O O
 ( O O
 23 O O
- O O
+ O B-License
 ) O O
 fastText+ConvKNRM O O
 29.0 O O
@@ -7523,7 +7523,7 @@ fastText+ConvKNRM O O
 78B O O
 ( O O
 11 O O
- O O
+ O B-License
 ) O O
 BERT B-Model B-Model
 base[25 O O
@@ -7535,7 +7535,7 @@ base[25 O O
 T O O
 ( O O
 13,900 O O
- O O
+ O B-License
 ) O O
 BERT B-Model B-Model
 base(our O O
@@ -7548,7 +7548,7 @@ training O O
 T O O
 ( O O
 13,900 O O
- O O
+ O B-License
 ) O O
 BERT B-Model B-Model
 large O O
@@ -7562,7 +7562,7 @@ large O O
 T O O
 ( O O
 48,600 O O
- O O
+ O B-License
 ) O O
 ColBERT O O
 ( O O
@@ -7583,7 +7583,7 @@ models O O
 we O O
 instruction- O O
 netune O O
-T5models O B-Model
+T5models O O
 which O O
 have O O
 an O O
@@ -7617,7 +7617,7 @@ of O O
 either O O
 RoBERTa B-Model B-Model
 or O O
-XLNet B-Model O
+XLNet B-Model B-Model
 . O O
 
 On O O
@@ -7668,7 +7668,7 @@ a O O
 slight O O
 preferance O O
 for O O
-SDXL O B-Model
+SDXL O O
 over O O
 Midjourney B-Model B-Model
 in O O
@@ -7750,7 +7750,7 @@ models O O
 
 In O O
 NLP O O
-research B-License O
+research B-License B-License
 , O O
 BERT B-Model B-Model
 firstly O O
@@ -8825,7 +8825,7 @@ recently O O
 - O O
 released O O
 Midjourney B-Model B-Model
-V5.2 O B-Model
+V5.2 O O
 has O O
 lower O O
 prompt O O
@@ -8856,7 +8856,7 @@ each O O
 segment O O
 , O O
 we O O
-prompt O B-Model
+prompt O O
 GPT-3.5 B-Model B-Model
 - O O
 turbo O O
@@ -8882,7 +8882,7 @@ Tranformer O O
 based O O
 neural O O
 machine O O
-translation B-Application O
+translation B-Application B-Application
 architecture O O
 which O O
 , O O
@@ -8940,19 +8940,19 @@ TPP O O
 ) O O
 Flan O O
 - O O
-PaLM-540b O B-Model
+PaLM-540b O O
 Flan O O
 - O O
-PaLM-62b O B-Model
+PaLM-62b O O
 Flan O O
 - O O
-PaLM-8b O B-Model
+PaLM-8b O O
 Flan O O
 - O O
 T5 B-Model B-Model
 - O O
 xxl-11b O O
-PaLM-540bFigure O B-Model
+PaLM-540bFigure O O
 12 O O
 : O O
 Toxicity O O
@@ -9065,7 +9065,7 @@ Emily O O
 Alsentzer O O
 Harvard O O
 - O O
-MIT B-License O
+MIT B-License B-Model
 Cambridge O O
 , O O
 MA O O
@@ -9191,7 +9191,7 @@ Large O O
 BERT B-Model B-Model
 LARGE O O
 and O O
-XLNet B-Model O
+XLNet B-Model B-Model
 LARGE O O
 results O O
 are O O
@@ -9235,11 +9235,11 @@ GPT-3 O O
 51 O O
 ] O O
 , O O
-GPT-3.5 B-Model O
+GPT-3.5 B-Model B-Model
 , O O
 ChatGPT5 O O
 , O O
-GPT-4 B-Model O
+GPT-4 B-Model B-Model
 [ O O
 3 O O
 ] O O
@@ -9271,7 +9271,7 @@ iii O O
 ) O O
 Anthropic O O
 s O O
-Claude B-Model O
+Claude B-Model B-Model
 Instant O O
 [ O O
 39 O O
@@ -9366,7 +9366,7 @@ similarity O O
 XGLM-7.5B O O
 BLOOM B-Model B-Model
 mTk-13B O O
-BLOOMZ O B-Model
+BLOOMZ O O
 mT0 O O
 - O O
 13BXNLI O O
@@ -9507,7 +9507,7 @@ the O O
 billion O O
 - O O
 parameter O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 is O O
 much O O
 more O O
@@ -9599,7 +9599,7 @@ trained O O
 language O O
 model O O
 , O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 , O O
 which O O
 im- O O
@@ -9838,7 +9838,7 @@ amount O O
 of O O
 computation O O
 as O O
-RoBERTa.6 O B-Model
+RoBERTa.6 O O
 Position O O
 Embeddings O O
 RoBERTa B-Model B-Model
@@ -10271,7 +10271,7 @@ BERT B-Model B-Model
 BERT B-Model B-Model
 LARGE O O
 and O O
-XLNet B-Model O
+XLNet B-Model B-Model
 LARGE O O
 results O O
 are O O
@@ -10424,7 +10424,7 @@ LongAlpaca O O
 10 O O
 ] O O
 , O O
-BookSum O B-Model
+BookSum O O
 [ O O
 29 O O
 ] O O
@@ -11213,7 +11213,7 @@ M O O
 90.9/81.8 O O
 86.6 O O
 93.7 O O
-XLNet B-Model O
+XLNet B-Model B-Model
 LARGE O O
 with O O
 B O O
@@ -11282,7 +11282,7 @@ UniLM O O
 - O O
 - O O
 - O O
-BERTSUMABS O B-Model
+BERTSUMABS O O
 ( O O
 Liu O O
 & O O
@@ -11296,7 +11296,7 @@ Lapata O O
 38.76 O O
 16.33 O O
 31.15 O O
-BERTSUMEXTABS O B-Model
+BERTSUMEXTABS O O
 ( O O
 Liu O O
 & O O
@@ -11324,7 +11324,7 @@ Results O O
 on O O
 two O O
 standard O O
-summarization B-Application O
+summarization B-Application B-Application
 datasets O O
 . O O
 
@@ -11534,7 +11534,7 @@ a O O
 pre O O
 - O O
 norm O O
-LLM O B-Model
+LLM O O
 like O O
 LLaMA B-Model B-Model
 [ O O
@@ -11572,7 +11572,7 @@ layer O O
 For O O
 example O O
 , O O
-DeBERTaRTD O B-Model
+DeBERTaRTD O O
 large O O
 obtains O O
 0.9 O O
@@ -11898,7 +11898,7 @@ than O O
 those O O
 obtained O O
 with O O
-mBERT O B-Model
+mBERT O O
 ( O O
 pretrained O O
 on O O
@@ -12020,7 +12020,7 @@ Sentence O O
 embeddings O O
 using O O
 Siamese O O
-BERT- O B-Model
+BERT- O O
 networks O O
 . O O
 
@@ -12703,7 +12703,7 @@ massively O O
 multilingual O O
 neural O O
 machine O O
-translation B-Application O
+translation B-Application B-Application
 ( O O
 mmNMT O O
 ) O O
@@ -12821,7 +12821,7 @@ al O O
 average O O
 BERT B-Model B-Model
 or O O
-RoBERTa B-Model O
+RoBERTa B-Model B-Model
 embeddings10 O O
 , O O
 and O O
@@ -12831,7 +12831,7 @@ processing O O
 methods O O
 such O O
 as O O
-BERT- O B-Model
+BERT- O O
 ow O O
 ( O O
 Li O O
@@ -12842,7 +12842,7 @@ al O O
 2020 O O
 ) O O
 and O O
-BERT- O B-Model
+BERT- O O
 whitening O O
 ( O O
 Su O O
@@ -12978,9 +12978,9 @@ multilingual O O
 models O O
 : O O
 Finetuned O O
-BLOOMZ O B-Model
+BLOOMZ O O
 and O O
-BLOOMZ O B-Model
+BLOOMZ O O
 - O O
 P3 O O
 models O O
@@ -13003,7 +13003,7 @@ based O O
 methods O O
 such O O
 as O O
-BERT- O B-Model
+BERT- O O
 ow O O
 or O O
 BERT B-Model B-Model
@@ -13064,7 +13064,7 @@ ur O O
 Avg O O
 Monolingual O O
 baselines O O
-BERTWiki O B-Model
+BERTWiki O O
 40k O O
 84.5 O O
 78.6 O O
@@ -13629,7 +13629,7 @@ the O O
 question O O
 of O O
 teaching O O
-BLOOMZ O B-Model
+BLOOMZ O O
 new O O
 languages O O
 ( O O
@@ -13790,7 +13790,7 @@ SmoothQuant O O
 49.2 O O
 35.1 O O
 275,935.2 O O
-LLM O B-Model
+LLM O O
 - O O
 QAT O O
 44.0 O O
@@ -13803,7 +13803,7 @@ QAT O O
 52.3 O O
 47.6 O O
 15.2 O O
-GPTQ O B-Model
+GPTQ O O
 63.8 O O
 40.2 O O
 67.3 O O
@@ -13883,7 +13883,7 @@ out O O
 of O O
 six O O
 categories O O
-SDXL O B-Model
+SDXL O O
 outperforms O O
 Midjourney B-Model B-Model
 , O O
@@ -13998,7 +13998,7 @@ of O O
 64.0 O O
 in O O
 extreme O O
-W4A4KV4 O B-Model
+W4A4KV4 O O
 quantization O O
 settings O O
 on O O
@@ -14334,7 +14334,7 @@ text O O
 question O O
 answering O O
 and O O
-summarization B-Application O
+summarization B-Application B-Application
 tasks O O
 . O O
 
@@ -14961,8 +14961,8 @@ refinement O O
 model O O
 ) O O
 to O O
-Midjourney B-Model O
-V5.1 O B-Model
+Midjourney B-Model B-Model
+V5.1 O O
 on O O
 complex O O
 prompts O O
@@ -15172,7 +15172,7 @@ Corr O O
 Acc O O
 Acc O O
 Acc O O
-BERTlarge O B-Model
+BERTlarge O O
 60.6 O O
 91.3 O O
 86.6/- O O
@@ -15193,7 +15193,7 @@ large O O
 86.6 O O
 90.9 O O
 88.82 O O
-XLNetlarge O B-Model
+XLNetlarge O O
 69.0 O O
 92.3 O O
 90.8/90.8 O O
@@ -15382,7 +15382,7 @@ their O O
 components O O
 . O O
 
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 - O O
 AP O O
 is O O
@@ -15452,7 +15452,7 @@ Flan O O
 PaLM B-Model B-Model
 s O O
 improved O O
-reasoning B-Application O
+reasoning B-Application B-Application
 abilities O O
 enable O O
 it O O
@@ -15967,7 +15967,7 @@ statistically O O
 equal O O
 to O O
 Midjourney B-Model B-Model
-V5.1 O B-Model
+V5.1 O O
 in O O
 7 O O
 out O O
@@ -16159,7 +16159,7 @@ synthbio91 O O
 Table O O
 10 O O
 : O O
-Translation B-Application O
+Translation B-Application B-Application
 misgendering O O
 performance O O
 , O O
@@ -16223,7 +16223,7 @@ models O O
 perform O O
 similarly O O
 to O O
-GPT-3 O B-Model
+GPT-3 O O
 models O O
 . O O
 
@@ -16362,7 +16362,7 @@ from O O
 the O O
 combination O O
 of O O
-FLAN B-Model O
+FLAN B-Model B-Model
 [ O O
 86 O O
 ] O O
@@ -16456,7 +16456,7 @@ of O O
 - O O
 thought O O
 commonsense O O
-reasoning B-Application O
+reasoning B-Application B-Application
 I O O
 will O O
 explain O O
@@ -16569,7 +16569,7 @@ GB O O
 GB O O
 BERT B-Model B-Model
 X O O
-XLNet B-Model O
+XLNet B-Model B-Model
 X O O
 X O O
 X O O
@@ -16645,7 +16645,7 @@ proportion O O
 to O O
 the O O
 entire O O
-ROOTS O B-Model
+ROOTS O O
 corpus O O
 , O O
 the O O
@@ -16726,7 +16726,7 @@ pre O O
 - O O
 training O O
 of O O
-bloom B-Model O
+bloom B-Model B-Model
 for O O
 improved O O
 support O O
@@ -16923,7 +16923,7 @@ ExT5 O O
 88 O O
 ] O O
 , O O
-T0 O B-Model
+T0 O O
 [ O O
 89 O O
 ] O O
@@ -17106,7 +17106,7 @@ Table O O
 1 O O
 , O O
 where O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 is O O
 compared O O
 DeBERTa B-Model B-Model
@@ -17134,7 +17134,7 @@ BERT B-Model B-Model
 , O O
 RoBERTa B-Model B-Model
 , O O
-XLNet B-Model O
+XLNet B-Model B-Model
 , O O
 ALBERT O O
 and O O
@@ -17149,7 +17149,7 @@ grouped O O
 query O O
 attention O O
 ( O O
-GQA O B-Model
+GQA O O
 ) O O
 [ O O
 1 O O
@@ -17397,7 +17397,7 @@ embeddings O O
 Unsupervised O O
 Supervised O O
 BERT B-Model B-Model
-RoBERTabase O B-Model
+RoBERTabase O O
 largebase O O
 large O O
 base O O
@@ -17554,15 +17554,15 @@ such O O
 as O O
 ChatGPT5 O O
 , O O
-GPT-3.5 B-Model O
+GPT-3.5 B-Model B-Model
 , O O
-Claude B-Model B-Model
+Claude B-Model O
 Instant O O
 [ O O
 39 O O
 ] O O
 , O O
-PaLM-2 O B-Model
+PaLM-2 O O
 
 Distill O O
 - O O
@@ -17725,7 +17725,7 @@ compare O O
 Mistral B-Model B-Model
 7B O O
 to O O
-Llama O B-Model
+Llama O O
 , O O
 and O O
 re O O
@@ -17832,7 +17832,7 @@ on O O
 MMLU O O
 , O O
 commonsense O O
-reasoning B-Application O
+reasoning B-Application B-Application
 , O O
 world O O
 knowledge O O
@@ -18021,7 +18021,7 @@ Table O O
 , O O
 show O O
 that O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 signi O O
 cantly O O
 outperforms O O
@@ -18495,7 +18495,7 @@ Task O O
 Name O O
 Reference O O
 Collections O O
-Mu O B-Model
+Mu O O
 n O O
 FLAN B-Model B-Model
 Wei O O
@@ -18505,7 +18505,7 @@ al O O
 ( O O
 2021 O O
 ) O O
-T0 O B-Model
+T0 O O
 - O O
 SF O O
 T0 O O
@@ -18989,7 +18989,7 @@ biomedical O O
 texts O O
 . O O
 
-BLOOMZ O B-Model
+BLOOMZ O O
 models O O
 have O O
 an O O
@@ -19022,7 +19022,7 @@ the O O
 respective O O
 URL O O
 . O O
-BLOOM(Z O B-Model
+BLOOM(Z O O
 ) O O
 models O O
 are O O
@@ -19040,7 +19040,7 @@ models O O
 are O O
 licensed O O
 under O O
-Apache B-License O
+Apache B-License B-License
 2.0 O O
 D O O
 ROOTS O O
@@ -19363,14 +19363,14 @@ a O O
 range O O
 of O O
 abstractive O O
-dialogue B-Application O
+dialogue B-Application B-Application
 , O O
 question O O
 answer- O O
 ing O O
 , O O
 and O O
-summarization B-Application O
+summarization B-Application B-Application
 tasks O O
 . O O
 
@@ -19544,9 +19544,9 @@ generation O O
 , O O
 such O O
 as O O
-GPT4 O B-Model
+GPT4 O O
 , O O
-Claude B-Model B-Model
+Claude B-Model O
 , O O
 and O O
 Bard O O
@@ -19634,7 +19634,7 @@ well O O
 as O O
 Anthropic O O
 s O O
-Claude4 O B-Model
+Claude4 O O
 . O O
 
 In O O
@@ -19947,9 +19947,9 @@ LLaMA-2 B-Model B-Model
 13B O O
 LLaMA-2 B-Model B-Model
 70B O O
-LLaMA-3.2 O B-Model
+LLaMA-3.2 O O
 1B O O
-LLaMA-3.2 O B-Model
+LLaMA-3.2 O O
 
 Published O O
 as O O
@@ -19965,7 +19965,7 @@ parameter O O
 DeBERTa B-Model B-Model
 1:5BDeBERTa O O
 large O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 base O O
 DeBERTa B-Model B-Model
 baseablation O O
@@ -20323,7 +20323,7 @@ shotprompting O O
 , O O
 comparingPaLMandFlan O O
 - O O
-PaLM.PaLMstruggleswith O B-Model
+PaLM.PaLMstruggleswith O O
 repetitions O O
 and O O
 not O O
@@ -20407,7 +20407,7 @@ open O O
 - O O
 source O O
 math O O
-reasoning B-Application O
+reasoning B-Application B-Application
 LLMs O O
 before O O
 this O O
@@ -21135,7 +21135,7 @@ models O O
 7B/13B/70B O O
 ) O O
 , O O
-LLaMA-3 O B-Model
+LLaMA-3 O O
 [ O O
 3 O O
 ] O O
@@ -21302,7 +21302,7 @@ and O O
 safety O O
 . O O
 
-BERTopic O B-Model
+BERTopic O O
 : O O
 Leveraging O O
 BERT B-Model B-Model
@@ -22050,7 +22050,7 @@ instruct O O
 Llama O O
 2 O O
 - O O
-Chat7B O B-Model
+Chat7B O O
 0.55 O O
 0.50 O O
 0.48 O O
@@ -22561,7 +22561,7 @@ it O O
 difficult O O
 for O O
 the O O
-LLM O B-Model
+LLM O O
 to O O
 generate O O
 a O O
@@ -22764,7 +22764,7 @@ of O O
 2 O O
 ) O O
 and O O
-SDXL O B-Model
+SDXL O O
 for O O
 each O O
 prompt O O
@@ -23404,7 +23404,7 @@ over O O
 a O O
 back O O
 - O O
-translation B-Application O
+translation B-Application B-Application
 system O O
 for O O
 machine O O
@@ -23610,7 +23610,7 @@ tuning O O
 recipe O O
 ) O O
 , O O
-LLaRA O B-Model
+LLaRA O O
 leads O O
 to O O
 +1.9 O O
@@ -23830,7 +23830,7 @@ Conneau O O
 ) O O
 , O O
 and O O
-XLNet B-Model O
+XLNet B-Model B-Model
 ( O O
 Yang O O
 et O O
@@ -23970,7 +23970,7 @@ CLIP O O
 ScoreFID-10KT5 O O
 - O O
 Small O O
-T O B-Model
+T O O
 - O O
 Large O O
 T5 B-Model B-Model
@@ -24031,7 +24031,7 @@ significantly O O
 behind O O
 the O O
 SOTA O O
-LLM O B-Model
+LLM O O
 , O O
 GPT-4 B-Model B-Model
 and O O
@@ -24157,7 +24157,7 @@ outputZero O O
 - O O
 shot O O
 creative O O
-reasoning B-Application O
+reasoning B-Application B-Application
 Input O O
 Text O O
 Flan O O
@@ -24301,7 +24301,7 @@ variants O O
 pre O O
 - O O
 trained O O
-RoBERTa- O B-Model
+RoBERTa- O O
 base4(RoB O O
 - O O
 Bs O O
@@ -24328,7 +24328,7 @@ Twitter O O
 from O O
 scratch O O
 ( O O
-RoB O B-Model
+RoB O O
 - O O
 Tw O O
 ) O O
@@ -24556,7 +24556,7 @@ P3 O O
 corpus O O
 to O O
 produce O O
-BLOOMZ O B-Model
+BLOOMZ O O
 and O O
 mT0 O O
 models O O
@@ -24957,7 +24957,7 @@ Gaokao O O
 CR O O
 RC O O
 Code O O
-Math O B-Model
+Math O O
 GPT-4 B-Model B-Model
 - O O
 83.0 O O
@@ -24991,7 +24991,7 @@ Qwen O O
 72.5 O O
 40.6 O O
 43.1 O O
-Llama234B O B-Model
+Llama234B O O
 62.6 O O
 44.1 O O
 - O O
@@ -25620,7 +25620,7 @@ epochs O O
 Model O O
 Accuracy O O
 / O O
- O O
+ O B-License
 Longformer O O
 ( O O
 seqlen O O
@@ -26576,11 +26576,11 @@ significantly O O
 surpasses O O
 OpenAI O O
 s O O
-ChatGPT-3.55 O B-Model
+ChatGPT-3.55 O O
 , O O
 Anthropic O O
 s O O
-Claude B-Model O
+Claude B-Model B-Model
 Instant-1 O O
 
 Next O O
@@ -26677,7 +26677,7 @@ Zihang O O
 Dai O O
 for O O
 clarifying O O
-XLNet B-Model O
+XLNet B-Model B-Model
 ; O O
 Brandon O O
 Norick O O
@@ -26848,7 +26848,7 @@ pretrained O O
 multilingual O O
 transformer O O
 https://huggingface.co/facebook/xglm-7.5B O O
-T0 O B-Model
+T0 O O
 - O O
 11B O O
 11B O O
@@ -26878,7 +26878,7 @@ finetuned O O
 multilingual O O
 transformer O O
 https://huggingface.co/allenai/mtk-instruct-11b-def-pos O O
-BLOOM-560 O B-Model
+BLOOM-560 O O
 M O O
 560 O O
 M O O
@@ -26889,7 +26889,7 @@ on O O
 ROOTS O O
 https://huggingface.co/bigscience/bloom-560 O O
 m O O
-BLOOM-1.1B O B-Model
+BLOOM-1.1B O O
 1.1B O O
 parameter O O
 model O O
@@ -26897,7 +26897,7 @@ pretrained O O
 on O O
 ROOTS O O
 https://huggingface.co/bigscience/bloom-1b1 O O
-BLOOM-1.7B O B-Model
+BLOOM-1.7B O O
 1.7B O O
 parameter O O
 model O O
@@ -26905,7 +26905,7 @@ pretrained O O
 on O O
 ROOTS O O
 https://huggingface.co/bigscience/bloom-1b7 O O
-BLOOM-3B O B-Model
+BLOOM-3B O O
 3B O O
 parameter O O
 model O O
@@ -26913,7 +26913,7 @@ pretrained O O
 on O O
 ROOTS O O
 https://huggingface.co/bigscience/bloom-3b O O
-BLOOM-7.1B O B-Model
+BLOOM-7.1B O O
 7.1B O O
 parameter O O
 model O O
@@ -26929,7 +26929,7 @@ pretrained O O
 on O O
 ROOTS O O
 https://huggingface.co/bigscience/bloom O O
-BLOOMZ-560 O B-Model
+BLOOMZ-560 O O
 M O O
 560 O O
 M O O
@@ -27096,7 +27096,7 @@ BERT B-Model B-Model
 , O O
 initialized O O
 from O O
-BERT- O B-Model
+BERT- O O
 Base O O
 , O O
 and O O
@@ -27297,7 +27297,7 @@ Size O O
 BERT B-Model B-Model
 - O O
 FF O O
-BERT- O B-Model
+BERT- O O
 MRL O O
 12 O O
 60.12 O O
@@ -27686,7 +27686,7 @@ Falcon7B O O
 0.19 O O
 0.28 O O
 -0.13 O O
-Llama O B-Model
+Llama O O
 17B O O
 0.16 O O
 0.22 O O
@@ -27916,7 +27916,7 @@ BOLD O O
 prompts O O
 . O O
 
-BLOOM B-Model O
+BLOOM B-Model B-Model
 models O O
 are O O
 large O O
@@ -27937,7 +27937,7 @@ an O O
 architecture O O
 similar O O
 to O O
-GPT-3 O B-Model
+GPT-3 O O
 ( O O
 Brown O O
 et O O
@@ -28173,14 +28173,14 @@ For O O
 the O O
 assessment O O
 of O O
-Claude B-Model B-Model
+Claude B-Model O
 Instant O O
 , O O
-Claude B-Model B-Model
+Claude B-Model O
 1.3 O O
 , O O
 and O O
-Claude B-Model B-Model
+Claude B-Model O
 2 O O
 , O O
 the O O
@@ -28350,7 +28350,7 @@ tasks O O
 Yet O O
 representative O O
 bilingual O O
-LLMs O B-Model
+LLMs O O
 , O O
 e.g. O O
 Qwen-14B O O
@@ -28541,7 +28541,7 @@ TPP O O
 OPT B-Model B-Model
 175B O O
 Davinci O O
-PaLMFigure O B-Model
+PaLMFigure O O
 5 O O
 : O O
 RealToxicityPompts O O
@@ -28680,7 +28680,7 @@ improve- O O
 ments O O
 such O O
 as O O
-XLNet B-Model O
+XLNet B-Model B-Model
 ( O O
 Yang O O
 et O O
@@ -28990,7 +28990,7 @@ of O O
 the O O
 - O O
 art O O
-BERTweet O B-Model
+BERTweet O O
 model O O
 ( O O
 Nguyen O O
@@ -29797,7 +29797,7 @@ DeBERTa B-Model B-Model
 signi O O
 cantly O O
 outperforms O O
-XLNet B-Model O
+XLNet B-Model B-Model
 by O O
 +1.4 O O
 % O O
@@ -30100,7 +30100,7 @@ is O O
 the O O
 most O O
 straightforward O O
-translation B-Application O
+translation B-Application B-Application
 of O O
 BERT B-Model B-Model
 from O O
@@ -30345,7 +30345,7 @@ outputZero O O
 - O O
 shot O O
 commonsense O O
-reasoning B-Application O
+reasoning B-Application B-Application
 Write O O
 me O O
 a O O
@@ -30536,7 +30536,7 @@ BERT B-Model B-Model
 whitening O O
 SimCSE O O
 - O O
-BERTUnsupervised O B-Model
+BERTUnsupervised O O
 models O O
 0 O O
 200 O O
@@ -30647,7 +30647,7 @@ large O O
 - O O
 - O O
 - O O
-XLNet B-Model O
+XLNet B-Model B-Model
 + O O
 SG O O
 - O O
@@ -30663,7 +30663,7 @@ UPM O O
 - O O
 90.7/88.2 O O
 XLNet B-Model B-Model
-+ O B-Model
++ O O
 DAAF O O
 + O O
 Veri O O
@@ -31319,7 +31319,7 @@ Gurevych O O
 2019 O O
 ) O O
 , O O
-BERT- O B-Model
+BERT- O O
 ow O O
 ( O O
 Li O O
@@ -31566,7 +31566,7 @@ tokens O O
 ( O O
 up O O
 from O O
-BART B-Model O
+BART B-Model B-Model
 s O O
 1 O O
 K O O
@@ -31678,7 +31678,7 @@ base O O
 100 O O
 88.8/88.5 O O
 86.2/83.1 O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 base O O
 128 O O
 86 O O
@@ -31708,7 +31708,7 @@ small O O
 44 O O
 81.8/- O O
 73.2/- O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 small O O
 128 O O
 44 O O
@@ -32692,15 +32692,15 @@ LASER2 O O
 https://github.com/facebookresearch/LASER O O
 MiniLM O O
 - O O
-L6 O B-Model
+L6 O O
 https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2 O O
-MiniLM O B-Model
+MiniLM O O
 - O O
 L12 O O
 https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2 O O
 MiniLM O O
 - O O
-L12 O B-Model
+L12 O O
 - O O
 multilingual O O
 https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 O O
@@ -32710,7 +32710,7 @@ MPNet O O
 - O O
 multilingual O O
 https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 O O
-MiniLM O B-Model
+MiniLM O O
 - O O
 L12 O O
 - O O
@@ -32762,7 +32762,7 @@ GTR O O
 - O O
 Large O O
 https://huggingface.co/sentence-transformers/gtr-t5-large O O
-GTR O B-Model
+GTR O O
 - O O
 XL O O
 https://huggingface.co/sentence-transformers/gtr-t5-xl O O
@@ -32770,7 +32770,7 @@ GTR O O
 - O O
 XXL O O
 https://huggingface.co/sentence-transformers/gtr-t5-xxl O O
-ST5 O B-Model
+ST5 O O
 - O O
 Base O O
 https://huggingface.co/sentence-transformers/sentence-t5-base O O
@@ -32778,7 +32778,7 @@ ST5 O O
 - O O
 Large O O
 https://huggingface.co/sentence-transformers/sentence-t5-large O O
-ST5 O B-Model
+ST5 O O
 
 [ O O
 90 O O
@@ -32790,7 +32790,7 @@ ZeroPrompt O O
 ] O O
 , O O
 and O O
-FLAN B-Model O
+FLAN B-Model B-Model
 - O O
 T5 B-Model B-Model
 [ O O
@@ -32951,7 +32951,7 @@ Sentence O O
 embeddings O O
 using O O
 Siamese O O
-BERT- O B-Model
+BERT- O O
 networks O O
 . O O
 
@@ -32977,7 +32977,7 @@ examples O O
 ) O O
 , O O
 whereas O O
-BERT++ O B-Model
+BERT++ O O
 was O O
 rst O O
 ne O O
@@ -33503,7 +33503,7 @@ instruct O O
 Llama O O
 2 O O
 - O O
-Chat7B O B-Model
+Chat7B O O
 0.44 O O
 0.42 O O
 0.45 O O
@@ -33627,7 +33627,7 @@ Creator O O
 , O O
 and O O
 Midjourney B-Model B-Model
-v5.2 O B-Model
+v5.2 O O
 . O O
 
 Average O O
@@ -35121,7 +35121,7 @@ Base O O
 40.9 O O
 27.3 O O
 780 O O
-M O B-Model
+M O O
 T5 B-Model B-Model
 - O O
 Large O O
@@ -36120,7 +36120,7 @@ duct O O
 comprehensive O O
 experiments O O
 with O O
-LLama O B-Model
+LLama O O
 and O O
 BGE O O
 models O O
@@ -36147,7 +36147,7 @@ proposed O O
 method O O
 . O O
 
-BERTlarge O B-Model
+BERTlarge O O
 86.6/- O O
 81.8/79.0 O O
 RoBERTa B-Model B-Model
@@ -36341,13 +36341,13 @@ ra O O
 When O O
 evaluated O O
 on O O
-reasoning B-Application O
+reasoning B-Application B-Application
 , O O
 comprehension O O
 , O O
 and O O
 STEM O O
-reasoning B-Application O
+reasoning B-Application B-Application
 ( O O
 specifically O O
 MMLU O O
@@ -36363,7 +36363,7 @@ might O O
 expect O O
 from O O
 a O O
-Llama O B-Model
+Llama O O
 2 O O
 model O O
 with O O
@@ -37676,7 +37676,7 @@ around O O
 70 O O
 % O O
 of O O
-BERT- O B-Model
+BERT- O O
 large O O
 s O O
 parameters O O
@@ -37942,7 +37942,7 @@ Sentence O O
 embeddings O O
 using O O
 Siamese O O
-BERT- O B-Model
+BERT- O O
 networks O O
 . O O
 
@@ -38587,7 +38587,7 @@ BERT B-Model B-Model
 -LARGE O O
 
 No O O
-proprietary B-License O
+proprietary B-License B-License
 data O O
 or O O
 training O O
@@ -39425,7 +39425,7 @@ data O O
 For O O
 example O O
 , O O
-BLOOMZ O B-Model
+BLOOMZ O O
 - O O
 P3 O O
 improves O O
@@ -39584,11 +39584,11 @@ We O O
 benchmark O O
 publicly O O
 available O O
-SGPT O B-Model
+SGPT O O
 models O O
 based O O
 on O O
-GPT O B-Model
+GPT O O
 - O O
 NeoX O O
 ( O O
@@ -39600,7 +39600,7 @@ al O O
 2021 O O
 ) O O
 , O O
-GPT- O B-Model
+GPT- O O
 J O O
 ( O O
 Wang O O
@@ -39624,7 +39624,7 @@ al O O
 The O O
 discriminator O O
 of O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 smallhas O O
 the O O
 same O O
@@ -39893,7 +39893,7 @@ handling O O
 is O O
 an O O
 active O O
-research B-License O
+research B-License B-License
 area O O
 . O O
 
@@ -39999,7 +39999,7 @@ with O O
 a O O
 specialized O O
 numeric O O
-reasoning B-Application O
+reasoning B-Application B-Application
 module O O
 . O O
 
@@ -40256,7 +40256,7 @@ EN O O
 augmented O O
 with O O
 back- O O
-translation B-Application O
+translation B-Application B-Application
 data O O
 . O O
 
@@ -40499,7 +40499,7 @@ the O O
 last O O
 layer O O
 between O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 and O O
 RoBERTa B-Model B-Model
 . O O
@@ -40519,16 +40519,16 @@ lower O O
 is O O
 better)Yarn O O
 - O O
-Mistral-7b-64k O B-Model
+Mistral-7b-64k O O
 Yarn O O
 - O O
-Mistral-7b-128k O B-Model
+Mistral-7b-128k O O
 amazon O O
 / O O
-MistralLite O B-Model
+MistralLite O O
 mistralai O O
 / O O
-Mistral-7B O B-Model
+Mistral-7B O O
 - O O
 v0.1Figure O O
 6 O O
@@ -40648,7 +40648,7 @@ al O O
 Mistral B-Model B-Model
 7B O O
 surpasses O O
-Llama O B-Model
+Llama O O
 2 O O
 13B O O
 across O O
@@ -40657,7 +40657,7 @@ metrics O O
 , O O
 and O O
 outperforms O O
-Llama O B-Model
+Llama O O
 1 O O
 34B O O
 on O O
@@ -41026,7 +41026,7 @@ non O O
 - O O
 pro O O
 t O O
-research B-License O
+research B-License B-License
 organiza- O O
 tions O O
 including O O
@@ -41595,7 +41595,7 @@ to O O
 the O O
 largest O O
 closed O O
-LLMs O B-Model
+LLMs O O
 , O O
 including O O
 Anthropic O O
@@ -41616,7 +41616,7 @@ Table O O
 3 O O
 , O O
 where O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 is O O
 compared O O
 with O O
@@ -41645,7 +41645,7 @@ BERT B-Model B-Model
 , O O
 RoBERTa B-Model B-Model
 , O O
-XLNet B-Model O
+XLNet B-Model B-Model
 ( O O
 Yang O O
 et O O
@@ -41667,7 +41667,7 @@ al O O
 , O O
 ELECTRA O O
 and O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 . O O
 
 The O O
@@ -41784,7 +41784,7 @@ takes O O
 hours O O
 and O O
 for O O
-Mistral-7B O B-Model
+Mistral-7B O O
 it O O
 takes O O
 16 O O
@@ -41795,7 +41795,7 @@ Our O O
 work O O
 builds O O
 on O O
-T0 O B-Model
+T0 O O
 ( O O
 Sanh O O
 et O O
@@ -42200,11 +42200,11 @@ Beyond O O
 . O O
 
 Unlike O O
-GPT-2 O B-Model
+GPT-2 O O
 s O O
 use O O
 of O O
-bloom B-Model O
+bloom B-Model B-Model
 lters O O
 to O O
 compute O O
@@ -42216,7 +42216,7 @@ contamination O O
 , O O
 we O O
 used O O
-Apache B-License O
+Apache B-License B-Application
 Spark O O
 to O O
 compute O O
@@ -42261,8 +42261,8 @@ base- O O
 [ O O
 23 O O
 ] O O
-Gemini B-Model O
-Gemini I-Model O
+Gemini B-Model B-Model
+Gemini I-Model B-Model
 Team O O
 , O O
 Rohan O O
@@ -42396,7 +42396,7 @@ ZeroPrompt O O
 24 O O
 ] O O
 and O O
-FLAN B-Model O
+FLAN B-Model B-Model
 - O O
 T5 B-Model B-Model
 [ O O
@@ -42448,7 +42448,7 @@ than O O
 other O O
 non O O
 - O O
-Meta O B-Model
+Meta O O
 reward O O
 models O O
 , O O
@@ -42972,7 +42972,7 @@ that O O
 open O O
 - O O
 source O O
-LLMs O B-Model
+LLMs O O
 still O O
 lag O O
 behind O O
@@ -43240,11 +43240,11 @@ Mistral B-Model B-Model
 7B O O
 significantly O O
 outperforms O O
-Llama O B-Model
+Llama O O
 2 O O
 7B O O
 and O O
-Llama O B-Model
+Llama O O
 2 O O
 13B O O
 on O O
@@ -43266,7 +43266,7 @@ is O O
 the O O
 same O O
 as O O
-DeBERTaV2 O B-Model
+DeBERTaV2 O O
 and O O
 RoBERTa B-Model B-Model
 , O O
@@ -43289,7 +43289,7 @@ al O O
 ) O O
 vocabulary O O
 as O O
-DeBERTaV2 O B-Model
+DeBERTaV2 O O
 ( O O
 He O O
 et O O
@@ -44321,7 +44321,7 @@ on O O
 zero O O
 - O O
 shot O O
-reasoning B-Application O
+reasoning B-Application B-Application
 tasks O O
 with O O
 full O O
@@ -44337,7 +44337,7 @@ LLaMA-2 B-Model B-Model
 model O O
 , O O
 surpassing O O
-LLM O B-Model
+LLM O O
 - O O
 QAT O O
 by O O
@@ -44622,7 +44622,7 @@ Base O O
 43.5 O O
 34.8 O O
 780 O O
-M O B-Model
+M O O
 T5 B-Model B-Model
 - O O
 Large O O
@@ -45063,7 +45063,7 @@ and O O
 Open O O
 - O O
 source O O
-LLMs O B-Model
+LLMs O O
 . O O
 
 On O O
@@ -45461,7 +45461,7 @@ papers O O
 & O O
 P O O
 UBMED- O O
-BERT+SAPBERT O B-Model
+BERT+SAPBERT O O
 ( O O
 PUBMEDBERT O O
 further O O
@@ -45478,7 +45478,7 @@ the O O
 right O O
 answer O O
 whereas O O
-Llama O B-Model
+Llama O O
 2 O O
 declines O O
 to O O
@@ -45627,7 +45627,7 @@ the O O
 differences O O
 between O O
 baseline-1 O O
-T O B-Model
+T O O
 and O O
 T5 B-Model B-Model
 - O O
@@ -46183,7 +46183,7 @@ models O O
 7B/13B/70B O O
 ) O O
 , O O
-LLaMA-3 O B-Model
+LLaMA-3 O O
 [ O O
 3 O O
 ] O O
@@ -46231,9 +46231,9 @@ k= O O
 10 O O
 k= O O
 100 O O
-GPT O B-Model
+GPT O O
 - O O
-Neo O B-Model
+Neo O O
 1.3B O O
 4.79 O O
 % O O
@@ -46241,7 +46241,7 @@ Neo O B-Model
 % O O
 16.30 O O
 % O O
-GPT O B-Model
+GPT O O
 - O O
 Neo O O
 2.7B O O
@@ -46261,7 +46261,7 @@ J O O
 % O O
 27.74 O O
 % O O
-GPT O B-Model
+GPT O O
 - O O
 NeoX O O
 20B O O
@@ -46301,7 +46301,7 @@ Codex-12B O O
 % O O
 72.31 O O
 % O O
-BLOOM-560 O B-Model
+BLOOM-560 O O
 M O O
 0.82 O O
 % O O
@@ -46309,28 +46309,28 @@ M O O
 % O O
 5.91 O O
 % O O
-BLOOM-1.1B O B-Model
+BLOOM-1.1B O O
 2.48 O O
 % O O
 5.93 O O
 % O O
 9.62 O O
 % O O
-BLOOM-1.7B O B-Model
+BLOOM-1.7B O O
 4.03 O O
 % O O
 7.45 O O
 % O O
 12.75 O O
 % O O
-BLOOM-3B O B-Model
+BLOOM-3B O O
 6.48 O O
 % O O
 11.35 O O
 % O O
 20.43 O O
 % O O
-BLOOM-7.1B O B-Model
+BLOOM-7.1B O O
 7.73 O O
 % O O
 17.38 O O
@@ -46344,7 +46344,7 @@ BLOOM B-Model B-Model
 % O O
 55.45 O O
 % O O
-BLOOMZ-560 O B-Model
+BLOOMZ-560 O O
 M O O
 2.18 O O
 % O O
@@ -46352,42 +46352,42 @@ M O O
 % O O
 9.00 O O
 % O O
-BLOOMZ-1.1B O B-Model
+BLOOMZ-1.1B O O
 2.63 O O
 % O O
 6.22 O O
 % O O
 11.68 O O
 % O O
-BLOOMZ-1.7B O B-Model
+BLOOMZ-1.7B O O
 4.38 O O
 % O O
 8.73 O O
 % O O
 16.09 O O
 % O O
-BLOOMZ-3B O B-Model
+BLOOMZ-3B O O
 6.29 O O
 % O O
 11.94 O O
 % O O
 19.06 O O
 % O O
-BLOOMZ-7.1B O B-Model
+BLOOMZ-7.1B O O
 8.06 O O
 % O O
 15.03 O O
 % O O
 27.49 O O
 % O O
-BLOOMZ O B-Model
+BLOOMZ O O
 12.06 O O
 % O O
 26.53 O O
 % O O
 48.44 O O
 % O O
-BLOOMZ O B-Model
+BLOOMZ O O
 - O O
 P3 O O
 6.13 O O
@@ -46440,7 +46440,7 @@ ExT5 O O
 22 O O
 ] O O
 , O O
-T0 O B-Model
+T0 O O
 [ O O
 23 O O
 ] O O
@@ -46509,7 +46509,7 @@ refer O O
 to O O
 as O O
 baseline-1 O O
-T O B-Model
+T O O
 ; O O
 and O O
 third O O
@@ -46555,7 +46555,7 @@ F1 O O
 EM O O
 Acc O O
 F1 O O
-BERTlarge O B-Model
+BERTlarge O O
 86.6/- O O
 90.9/84.1 O O
 81.8/79.0 O O
@@ -46580,7 +46580,7 @@ large O O
 90.6/90.0 O O
 89.9 O O
 93.4 O O
-XLNetlarge O B-Model
+XLNetlarge O O
 90.8/90.8 O O
 95.1/89.7 O O
 90.6/87.9 O O
@@ -46640,7 +46640,7 @@ had O O
 62.8 O O
 58.6 O O
 13.7 O O
-LLaMA-3 O B-Model
+LLaMA-3 O O
 8BFull O O
 Precision O O
 77.6 O O
@@ -46675,7 +46675,7 @@ SmoothQuant O O
 49.8 O O
 35.6 O O
 179,664.5 O O
-LLM O B-Model
+LLM O O
 - O O
 QAT O O
 35.9 O O
@@ -46688,7 +46688,7 @@ QAT O O
 50.9 O O
 40.8 O O
 14.9 O O
-GPTQ O B-Model
+GPTQ O O
 50.8 O O
 34.5 O O
 65.6 O O
@@ -46735,7 +46735,7 @@ RTN O O
 48.3 O O
 40.3 O O
 167.1 O O
-GPTQ O B-Model
+GPTQ O O
 31.9 O O
 32.7 O O
 63.8 O O
@@ -47000,7 +47000,7 @@ tune O O
 BERT B-Model B-Model
 for O O
 extractive O O
-summarization B-Application O
+summarization B-Application B-Application
 . O O
 
 Overall O O
@@ -47027,7 +47027,7 @@ similar O O
 performance O O
 on O O
 the O O
-translation B-Application O
+translation B-Application B-Application
 tasks O O
 . O O
 
@@ -47216,7 +47216,7 @@ and O O
 more O O
 comments O O
 than O O
-BLOOMZ O B-Model
+BLOOMZ O O
 for O O
 a O O
 given O O
@@ -47371,7 +47371,7 @@ promising O O
 direction O O
 for O O
 enhancing O O
-LLMs O B-Model
+LLMs O O
 . O O
 
 Food O O
@@ -47401,7 +47401,7 @@ User O O
 preference O O
 comparison O O
 of O O
-SDXL O B-Model
+SDXL O O
 ( O O
 without O O
 refinement O O
@@ -47436,7 +47436,7 @@ of O O
 the O O
 settings O O
 of O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 , O O
 we O O
 denote O O
@@ -47444,14 +47444,14 @@ the O O
 new O O
 models O O
 as O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 large O O
 , O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 base O O
 , O O
 and O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 small O O
 . O O
 
@@ -47526,7 +47526,7 @@ baseline O O
 Like O O
 BERT B-Model B-Model
 , O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 is O O
 pre O O
 - O O
@@ -47906,7 +47906,7 @@ R O O
 ESULTS O O
 ON O O
 THE O O
-TORONTO O B-Model
+TORONTO O O
 BOOK O O
 CORPUS O O
 To O O
@@ -48454,7 +48454,7 @@ Tranformer O O
 based O O
 neural O O
 machine O O
-translation B-Application O
+translation B-Application B-Application
 architecture O O
 which O O
 , O O
@@ -48957,7 +48957,7 @@ HumanEval O O
 MBPP O O
 MATH O O
 GSM8 O O
-K O B-Model
+K O O
 LLaMA B-Model B-Model
 2 O O
 7B O O
@@ -49098,7 +49098,7 @@ Sentence O O
 embeddings O O
 using O O
 Siamese O O
-BERT- O B-Model
+BERT- O O
 networks O O
 . O O
 
@@ -49147,7 +49147,7 @@ combines O O
 instruction O O
 netuning O O
 with O O
-UL2 B-Model O
+UL2 B-Model B-Model
 continued O O
 pre O O
 - O O
@@ -49339,7 +49339,7 @@ RE O O
 TRAINING O O
 DATASET O O
 For O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 pre O O
 - O O
 training O O
@@ -49351,7 +49351,7 @@ data O O
 as O O
 RoBERTa B-Model B-Model
 and O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 1.5B O O
 , O O
 which O O
@@ -49876,7 +49876,7 @@ question O O
 answering O O
 , O O
 and O O
-summariza- O O
+summariza- O B-Application
 tion O O
 tasks O O
 , O O
@@ -49990,7 +49990,7 @@ E O O
 Comparison O O
 to O O
 Midjourney B-Model B-Model
-v5.1 O B-Model
+v5.1 O O
 E.1 O O
 
 We O O
@@ -50010,7 +50010,7 @@ outperforms O O
 previous O O
 work O O
 on O O
-summarization B-Application O
+summarization B-Application B-Application
 on O O
 two O O
 tasks O O
@@ -50528,7 +50528,7 @@ some O O
 close O O
 - O O
 source O O
-LLMs O B-Model
+LLMs O O
 on O O
 GSM8k O O
 , O O
@@ -50673,7 +50673,7 @@ OPT B-Model B-Model
 1.3 O O
 B O O
 0.2 O O
-T O B-Model
+T O O
 41.49 O O
 PyThia O O
 [ O O
@@ -51044,7 +51044,7 @@ embeddings O O
 
 In O O
 NLP O O
-research B-License O
+research B-License B-License
 , O O
 BERT B-Model B-Model
 firstly O O
@@ -51332,7 +51332,7 @@ a O O
 correct O O
 response O O
 while O O
-Llama O B-Model
+Llama O O
 2 O O
 declines O O
 to O O
@@ -51441,7 +51441,7 @@ benchmark O O
 
 BBH O O
 Salient O O
-Translation B-Application O
+Translation B-Application B-Application
 Error O O
 DetectionSnarksSports O O
 UnderstandingTemporal O O
@@ -52401,7 +52401,7 @@ Largey1 O O
 89.2 O O
 91.8 O O
 92.0 O O
-RoBERTay1 O B-Model
+RoBERTay1 O O
 90.2/90.2 O O
 94.7 O O
 92.2 O O
@@ -52430,7 +52430,7 @@ results O O
 
 Meanwhile O O
 , O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 outperforms O O
 XLNet B-Model B-Model
 in O O
@@ -52596,7 +52596,7 @@ dataset O O
 , O O
 OpenAI O O
 trained O O
-GPT-3 O B-Model
+GPT-3 O O
 [ O O
 1 O O
 ] O O
@@ -52911,7 +52911,7 @@ it O O
 to O O
 RoBERTa B-Model B-Model
 and O O
-XLNet B-Model O
+XLNet B-Model B-Model
 trained O O
 on O O
 160 O O
@@ -53037,7 +53037,7 @@ P3 O O
 BLOOMZ O O
 - O O
 MT O O
-BLOOMZFigure O B-Model
+BLOOMZFigure O O
 8 O O
 : O O
 Performance O O
@@ -53253,7 +53253,7 @@ DeBERTa B-Model B-Model
 , O O
 RoBERTa B-Model B-Model
 and O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 variants O O
 ( O O
 i.e. O O
@@ -53521,7 +53521,7 @@ Chat O O
 50.3 O O
 31.3 O O
 BLIP-2 O O
-FLAN B-Model O
+FLAN B-Model B-Model
 - O O
 T5 B-Model B-Model
 - O O
@@ -53588,7 +53588,7 @@ OWL2 O O
 46.7 O O
 29.6 O O
 BLIP-2 O O
-FLAN B-Model O
+FLAN B-Model B-Model
 - O O
 T5 B-Model B-Model
 - O O
@@ -53684,7 +53684,7 @@ code O O
 mathematics O O
 , O O
 and O O
-reasoning B-Application O
+reasoning B-Application B-Application
 benchmarks O O
 . O O
 
@@ -53709,16 +53709,16 @@ The O O
 discriminator O O
 part O O
 of O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 largeand O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 baseare O O
 the O O
 same O O
 as O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 largeand O O
-DeBERTa B-Model O
+DeBERTa B-Model B-Model
 base O O
 , O O
 respectively O O
@@ -54735,11 +54735,11 @@ F1 O O
 / O O
 EM O O
 ) O O
-BERTRTD O B-Model
+BERTRTD O O
 small O O
 88.2/87.9 O O
 82.9/80.4 O O
-BERTbase O B-Model
+BERTbase O O
 84.3/84.7 O O
 76.3/73.7 O O
 RoBERTa B-Model B-Model
@@ -54834,7 +54834,7 @@ data O O
 used O O
 by O O
 both O O
-XLNet B-Model O
+XLNet B-Model B-Model
 ( O O
 Yang O O
 et O O
@@ -54870,7 +54870,7 @@ retrieval O O
 system O O
 ( O O
 i.e. O O
-Apache B-License O
+Apache B-License B-Application
 Lucene O O
 ) O O
 in O O
@@ -54939,7 +54939,7 @@ DeBERTa B-Model B-Model
 referred O O
 to O O
 as O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 , O O
 by O O
 replacing O O
@@ -54976,7 +54976,7 @@ GPT3&4 O O
 , O O
 Anthropic O O
 s O O
-Claude7 O B-Model
+Claude7 O O
 , O O
 Google O O
 s O O
@@ -55220,7 +55220,7 @@ M O O
 80.9 O O
 31.4 O O
 58.9 O O
-E5base O B-Model
+E5base O O
 110 O O
 M O O
 72.6 O O
@@ -55244,7 +55244,7 @@ M O O
 61.4 O O
 InstructOR O O
 
-BERT- O B-Model
+BERT- O O
 ow O O
 ( O O
 NLI O O
@@ -55257,7 +55257,7 @@ NLI O O
 68.66 O O
 64.47 O O
 66.55 O O
-BERT- O B-Model
+BERT- O O
 ow O O
 ( O O
 target O O
@@ -55376,7 +55376,7 @@ respectively O O
 Model O O
 Size O O
 GSM8k O O
-MATH O B-Model
+MATH O O
 Human O O
 - O O
 Eval O O
@@ -55651,7 +55651,7 @@ Pretrained O O
 % O O
 Code O O
 - O O
-Llama O B-Model
+Llama O O
 7B O O
 Finetuned O O
 36.9 O O
@@ -56050,7 +56050,7 @@ Mistral B-Model B-Model
 [ O O
 cs O O
 . O O
-CL O B-Model
+CL O O
 ] O O
 10 O O
 Oct O O
@@ -56061,7 +56061,7 @@ is O O
 released O O
 under O O
 the O O
-Apache B-License O
+Apache B-License B-Application
 2.0 O O
 license B-License O
 . O O
@@ -57230,7 +57230,7 @@ BERT B-Model B-Model
 on O O
 text O O
 from O O
-research B-License O
+research B-License B-License
 papers O O
 improved O O
 its O O
@@ -57319,7 +57319,7 @@ DNN O O
 91.1 O O
 89.0 O O
 87.6 O O
-XLNet B-Model O
+XLNet B-Model B-Model
 90.2/89.8 O O
 98.6 O O
 90.3 O O
@@ -57393,7 +57393,7 @@ than O O
 others O O
 for O O
 quantized O O
-LLM O B-Model
+LLM O O
 and O O
 that O O
 better O O
@@ -57422,7 +57422,7 @@ Zero O O
 shot O O
 Common O O
 Sense O O
-Reasoning B-Application O
+Reasoning B-Application B-Application
 tasks O O
 on O O
 LLaMA-2 B-Model B-Model
@@ -57657,7 +57657,7 @@ Base O O
 27.3 O O
 13.6 O O
 780 O O
-M O B-Model
+M O O
 T5 B-Model B-Model
 - O O
 Large O O
@@ -57849,7 +57849,7 @@ a O O
 clearlinearin O O
 uenceforFlan O O
 - O O
-PaLMmodelsandFigure15showsFlan O B-Model
+PaLMmodelsandFigure15showsFlan O O
 - O O
 T5 B-Model B-Model
 - O O
@@ -58012,7 +58012,7 @@ base O O
 87.6/- O O
 91.5/84.6 O O
 83.7/80.5 O O
-XLNetbase O B-Model
+XLNetbase O O
 86.8/- O O
 
 5.2 O O
@@ -58133,7 +58133,7 @@ We O O
 ne O O
 - O O
 tune O O
-BERT6ontrain O B-Model
+BERT6ontrain O O
 , O O
 which O O
 will O O
@@ -58755,7 +58755,7 @@ Mistral B-Model B-Model
 7B O O
 largely O O
 outperforms O O
-Llama O B-Model
+Llama O O
 2 O O
 13B O O
 on O O
@@ -58916,7 +58916,7 @@ Code O O
 Llama O O
 34BLlemma O O
 34BGPT-3.5 O O
-TurboGPT-4 O B-Model
+TurboGPT-4 O O
 Grok-0 O O
 ( O O
 33B)Grok-1 O O
@@ -59262,7 +59262,7 @@ N= O O
 20)CoT O O
 : O O
 complex O O
-reasoning B-Application O
+reasoning B-Application B-Application
 ( O O
 N= O O
 20)Explanation O O
@@ -59272,11 +59272,11 @@ N= O O
 ( O O
 N= O O
 20)Complex O O
-reasoning B-Application O
+reasoning B-Application B-Application
 ( O O
 N= O O
 20)Context O O
-reasoning B-Application O
+reasoning B-Application B-Application
 ( O O
 N= O O
 20)Creativity O O
@@ -59421,7 +59421,7 @@ example O O
 the O O
 recently O O
 proposed O O
-XLNet B-Model O
+XLNet B-Model B-Model
 architecture O O
 ( O O
 Yang O O
@@ -59922,7 +59922,7 @@ that O O
 , O O
 even O O
 though O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 xsmall O O
 has O O
 only O O
@@ -59932,7 +59932,7 @@ parameters O O
 of O O
 RoBERTa B-Model B-Model
 baseand O O
-XLNet B-Model O
+XLNet B-Model B-Model
 base O O
 , O O
 the O O
@@ -60193,7 +60193,7 @@ pass@1 O O
 performance O O
 of O O
 main O O
-LLM O B-Model
+LLM O O
 models O O
 on O O
 the O O
@@ -60219,7 +60219,7 @@ source O O
 models O O
 such O O
 as O O
-ChatGPT- O B-Model
+ChatGPT- O O
 3.55 O O
 , O O
 Claude B-Model O
@@ -60512,7 +60512,7 @@ al O O
 16as O O
 much O O
 as O O
-XLNet B-Model O
+XLNet B-Model B-Model
 ( O O
 Yang O O
 et O O
@@ -60697,7 +60697,7 @@ code O O
 math O O
 , O O
 and O O
-reasoning B-Application O
+reasoning B-Application B-Application
 scenarios O O
 , O O
 revealing O O
@@ -60909,7 +60909,7 @@ BERT B-Model B-Model
 , O O
 RoBERTa B-Model B-Model
 , O O
-XLNet B-Model O
+XLNet B-Model B-Model
 , O O
 ALBERT O O
 large O O
@@ -60922,7 +60922,7 @@ DeBERTa B-Model B-Model
 large O O
 ) O O
 , O O
-DeBERTaV3 O B-Model
+DeBERTaV3 O O
 largeshows O O
 superior O O
 performance O O
@@ -61663,7 +61663,7 @@ models O O
 
 For O O
 both O O
-BERT- O B-Model
+BERT- O O
 ow O O
 and O O
 BERT B-Model B-Model
@@ -61776,7 +61776,7 @@ even O O
 surpasses O O
 Anthropic O O
 s O O
-Claude B-Model O
+Claude B-Model B-Model
 and O O
 Google O O
 s O O
@@ -61894,7 +61894,7 @@ models O O
 on O O
 GSM8k O O
 , O O
-MATH O B-Model
+MATH O O
 , O O
 Human O O
 - O O
@@ -61949,7 +61949,7 @@ instruct O O
 28.03 O O
 41.00 O O
 85.68 O O
-Llama O B-Model
+Llama O O
 2 O O
 - O O
 Chat7B O O
@@ -61978,12 +61978,12 @@ our O O
 model O O
 even O O
 outperforms O O
-ChatGPT-3.5 O B-Model
+ChatGPT-3.5 O O
 , O O
-Claude B-Model B-Model
+Claude B-Model O
 Instant-1 O O
 , O O
-PaLM-2 O B-Model
+PaLM-2 O O
 and O O
 Minerva O O
 on O O
@@ -61995,7 +61995,7 @@ Text O O
 - O O
 davinci-002 O O
 , O O
-PaLM-1 O B-Model
+PaLM-1 O O
 and O O
 GPT-3 O O
 on O O
@@ -62113,7 +62113,7 @@ question O O
 answering O O
 , O O
 document O O
-summarization B-Application O
+summarization B-Application B-Application
 , O O
 and O O
 sentiment O O
@@ -62373,7 +62373,7 @@ M O O
 on O O
 10 O O
 M O O
-TSMixup O B-Model
+TSMixup O O
 augmentations O O
 ( O O
 see O O
@@ -62872,7 +62872,7 @@ PaLM B-Model B-Model
 outputZero O O
 - O O
 shot O O
-reasoning B-Application O
+reasoning B-Application B-Application
 sleep O O
 walk O O
 Figure O O
@@ -62967,7 +62967,7 @@ three O O
 most O O
 dif O O
 cult O O
-reason- O O
+reason- O B-Application
 ing O O
 types O O
 for O O

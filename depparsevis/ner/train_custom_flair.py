@@ -23,31 +23,46 @@ corpus: Corpus = ColumnCorpus(
 label_type = "ner"
 
 # 3. make the label dictionary from the corpus
-label_dict = corpus.make_label_dictionary(label_type=label_type)
+label_dict = corpus.make_label_dictionary(label_type=label_type, add_unk=False)
 print(label_dict)
 
 # 4. initialize embeddings
 embeddings = TransformerWordEmbeddings(
-    "wietsedv/bert-base-dutch-cased", allow_long_sentences=True
+    model="xlm-roberta-large",
+    layers="-1",
+    subtoken_pooling="first",
+    fine_tune=True,
+    use_context=True,
 )
 
 
-# 5. initialize sequence tagger
-tagger: SequenceTagger = SequenceTagger(
+# 5. initialize bare-bones sequence tagger (no CRF, no RNN, no reprojection)
+tagger = SequenceTagger(
     hidden_size=256,
     embeddings=embeddings,
     tag_dictionary=label_dict,
-    tag_type=label_type,
+    tag_type="ner",
+    use_crf=False,
+    use_rnn=False,
+    reproject_embeddings=False,
 )
 
 # 6. initialize trainer
-trainer: ModelTrainer = ModelTrainer(tagger, corpus)
+trainer = ModelTrainer(tagger, corpus)
 
-
-# 7. start training
-trainer.train(
-    "../../models/ner-flair-basic",
-    train_with_dev=True,
-    mini_batch_size=16,
-    max_epochs=150,
+# 7. run fine-tuning
+trainer.fine_tune(
+    "resources/taggers/sota-ner-flert",
+    learning_rate=5.0e-6,
+    mini_batch_size=4,
+    mini_batch_chunk_size=1,
+    max_epochs=10,
 )
+
+# # 7. start training
+# trainer.train(
+#     "../../models/ner-flair-basic",
+#     train_with_dev=False,
+#     mini_batch_size=16,
+#     max_epochs=50,
+# )
