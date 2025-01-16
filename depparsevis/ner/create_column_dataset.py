@@ -47,9 +47,9 @@ if __name__ == "__main__":
     # --- Randomly shuffle the data
     random.shuffle(lines)
 
-    # --- Based on previous split sizes 7-2-1
+    # --- Based on previous split sizes 7-1-2
     train_ratio = 0.7
-    val_ratio = 0.2
+    val_ratio = 0.1
 
     train_size = int(train_ratio * len(lines))
     val_size = int(val_ratio * len(lines))

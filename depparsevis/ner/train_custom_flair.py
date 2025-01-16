@@ -15,8 +15,8 @@ corpus: Corpus = ColumnCorpus(
     data_folder,
     columns,
     train_file="train_column_dataset.txt",
-    test_file="train_column_dataset.txt",
-    dev_file="train_column_dataset.txt",
+    test_file="test_column_dataset.txt",
+    dev_file="val_column_dataset.txt",
 )
 
 # 2. what label do we want to predict?
@@ -56,7 +56,7 @@ trainer.fine_tune(
     learning_rate=5.0e-6,
     mini_batch_size=4,
     mini_batch_chunk_size=1,
-    max_epochs=10,
+    max_epochs=20,
 )
 
 # # 7. start training
